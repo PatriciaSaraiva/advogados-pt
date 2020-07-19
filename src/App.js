@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import backgroundImage from "./images/bg.jpg"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <img src={backgroundImage} id="bg" alt="office furniture"></img> */}
+      <div className="background">
+        <div className="container">
+          <div className="logos-container">
+            <h4>Cristina</h4>
+            <h4>Dulce</h4>  
+          </div>
+          <h1>Em construção</h1>
+          <ul className="emails-list"> 
+            <li>cristina.gomes@ccg-advogados.pt</li>
+            <li>dulcecesar.3194@gmail.com</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
