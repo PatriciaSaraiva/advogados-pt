@@ -1,30 +1,97 @@
+* {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
 .App {
   height: 100vh;  
 }
 
 .background {
-  background-image: url(./images//bg.jpg);
+  background-image: url(./images/bg.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.4;
 }
 
-
-.container {
+.main {
+  display: flex;
   text-align: center;
-  width: 800px;
-  height: 500px;
+  width: 44rem;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%)
+  border: solid 1px;
+  border-radius: 0.3rem;
+  padding: 1.5rem;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.35);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.35);
 }
 
+.main-overlay {
+  background-color: rgba(255, 255, 255, 0.644);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  margin-bottom: 0.3rem;
+}
 .logos-container {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 170px;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.info-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cristina-logo {
+  max-width: 100%;
+}
+
+.dulce-logo {
+  margin-top: 1.25rem;
+  max-width: 100%;
+  width: 11.25rem;
+}
+
+.contacts-container {
+  display: flex;
+  
+}
+.address-list {
+  list-style: none;
+  padding-left: 0px;
+  text-align: right;
+  border-right: solid black 1px;
+  padding-right: 1rem;
+  width: 50%;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0px;
+  text-align: left;
+  width: 50%;
+  margin-left: 1rem;
 }
 
 .emails-list {
