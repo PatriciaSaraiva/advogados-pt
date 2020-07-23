@@ -2,12 +2,17 @@ import React from "react";
 
 import cristinaLogo from "images/cristina-logo.png";
 import dulceLogo from "images/dulce-logo.png";
+import bg from "images/bg.jpg";
 import "./Home.css";
 
 export function Home() {
   return (
     <div className='home'>
-      <div className='background' />
+      <img
+        src={bg}
+        className='background'
+        alt='desk with a laptop and a plant'
+      />
       <div className='main'>
         <div className='main-overlay' />
         <div className='logos-container'>
