@@ -6,7 +6,7 @@ import "./Home.css";
 
 export function Home() {
   return (
-    <div className='Home'>
+    <div className='home'>
       <div className='background' />
       <div className='main'>
         <div className='main-overlay' />
