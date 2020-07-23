@@ -29,8 +29,7 @@ function App() {
             </ul>
             <ul className='contact-list'>
               <li>(+351) 261 064 229</li>
-              <li>cristina.gomes@ccg-advogados.pt</li>
-              <li>dulcecesar.3194@gmail.com</li>
+              <li>geral@ccg-advogados.pt</li>
             </ul>
           </div>
         </div>
