@@ -26,7 +26,7 @@ export function Home() {
         <div className='info-container'>
           <h1 className='title'>Website em construção</h1>
           <h3 className='sub-title'>Atos notariais</h3>
-          <h4 className='subtitle'>Entre em contacto connosco</h4>
+          <h4 className='contact'>Entre em contacto connosco</h4>
           <div className='contacts-container'>
             <ul className='address-list'>
               <li>Rua Santos Bernardes,</li>
