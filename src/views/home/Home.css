@@ -2,19 +2,24 @@
   font-family: "Barlow Condensed", sans-serif;
 }
 
-.App {
+.home {
   height: 100vh;
 }
 
 .background {
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  opacity: 0.4;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .main {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.35);
   display: flex;
   text-align: center;
   width: 60%;
@@ -25,8 +30,6 @@
   border-radius: 0.3rem;
   padding: 1.5rem;
   transform: translate(-50%, -50%);
-  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.35);
   box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
@@ -98,6 +101,9 @@
 }
 
 @media screen and (max-width: 750px) {
+  .background {
+    height: 100vh;
+  }
   .contacts-container {
     flex-direction: column;
     align-items: center;

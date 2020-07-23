@@ -9,8 +9,8 @@ export function Home() {
   return (
     <div className='home'>
       <img
-        src={bg}
         className='background'
+        src={bg}
         alt='desk with a laptop and a plant'
       />
       <div className='main'>
