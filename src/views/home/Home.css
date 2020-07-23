@@ -136,11 +136,13 @@
 
   .dulce-logo {
     max-width: 35%;
+    height: auto;
     padding: 0.5rem;
     margin-top: 0px;
   }
   .cristina-logo {
     max-width: 45%;
+    height: auto;
     padding: 0.5rem;
   }
 }
