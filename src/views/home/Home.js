@@ -1,12 +1,12 @@
 import React from "react";
 
-import cristinaLogo from "./images/cristina-logo.png";
-import dulceLogo from "./images/dulce-logo.png";
-import "./App.css";
+import cristinaLogo from "images/cristina-logo.png";
+import dulceLogo from "images/dulce-logo.png";
+import "./Home.css";
 
-function App() {
+export function Home() {
   return (
-    <div className='App'>
+    <div className='Home'>
       <div className='background' />
       <div className='main'>
         <div className='main-overlay' />
@@ -37,5 +37,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
