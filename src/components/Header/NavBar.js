@@ -24,7 +24,10 @@ const NavBar = (props) => {
           <a href="/Quem-Somos">Quem Somos</a>
         </li>
         <li className="nav_bar-item">
-          <a href="/Areas-Actividade">Areas de Actividade</a>
+          <a href="/Experience">Experiência</a>
+        </li>
+        <li className="nav_bar-item">
+          <a href="/Actividade">Actividade</a>
         </li>
         <li className="nav_bar-item">
           <a href="/Contactos">Contactos</a>

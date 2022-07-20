@@ -27,7 +27,7 @@ const Experience = () => {
   return (
     <>
       <div className="experience_page">
-        <h1 className="experience_title">O que podemos garantir</h1>
+        <h1 className="experience_title">O que Garantimos</h1>
         <div className="experience_container">
           {cardsContent.map((card) => (
             <div className={card.className}>

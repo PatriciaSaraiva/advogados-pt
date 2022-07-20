@@ -24,17 +24,12 @@ const QuemSomos = () => {
   return (
     <div className="quem_somos" id="quem-somos">
       <div className="quem_somos_container">
-        <img
-          className="salaReunioes"
-          src={salaReunioes}
-          alt="Sala Reunioes Img"
-        />
         <div className="quem_somos_card">
           <div className="quem_somos_title">
             <h2>Quem Somos</h2>
           </div>
-          <div className="quem_somos_description">
-            <p>
+          <div>
+            <p className="quem_somos_description">
               O nosso escritório é o resultado de uma parceria entre vários
               profissionais do foro jurídico que, têm desenvolvido a sua
               atividade numa perspetiva de interação multidisciplinar. Com

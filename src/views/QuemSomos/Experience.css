@@ -6,38 +6,60 @@
   position: absolute;
   top: 5%;
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   color: #f7f7fa;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .experience_container {
   display: flex;
+  gap: 20px;
+  padding: 0 1rem;
   position: absolute;
-  top: 60%;
-  text-align: center;
+  top: 40%;
 }
 
 .title {
   font-weight: 700;
 }
 .experience_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 0.8rem;
   background-color: #2b697a;
   color: #f7f7fa;
-  margin: 0 1rem 0 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   height: 200px;
 }
 
 .profissionalismo_description {
   background-color: #8cb1bb;
-  margin: 0 0.5rem 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 0.8rem;
+  color: #000000;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  height: 200px;
 }
 
 .dedicacao_description {
   background-color: #bcc0c2;
-  margin: 0 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 0.8rem;
+  color: #000000;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  height: 200px;
 }
 
 .backgroundExperience {
