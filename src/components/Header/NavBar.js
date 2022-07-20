@@ -18,16 +18,16 @@ const NavBar = (props) => {
         } ${smallScreen ? "hide" : ""}`}
       >
         <li className="nav_bar-item">
-          <a href="#">Home</a>
+          <a href="/Home">Home</a>
         </li>
         <li className="nav_bar-item">
-          <a href="#">Quem Somos</a>
+          <a href="/Quem-Somos">Quem Somos</a>
         </li>
         <li className="nav_bar-item">
-          <a href="#">Areas de Actividade</a>
+          <a href="/Areas-Actividade">Areas de Actividade</a>
         </li>
         <li className="nav_bar-item">
-          <a href="#">Contactos</a>
+          <a href="/Contactos">Contactos</a>
         </li>
       </ul>
       {smallScreen && <BurgerMenu toggleMenu={toggleMenu} />}

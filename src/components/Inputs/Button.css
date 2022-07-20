@@ -1,0 +1,27 @@
+.button_home {
+  position: absolute;
+  left: 20%;
+  bottom: 17%;
+  background: #2b697a;
+  border-radius: 5rem;
+  border: 1px solid #347b8f;
+  padding: 10px 40px;
+  color: #f7f7fa;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 14px 14px 19px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 14px 19px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 14px 19px -14px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.button_home:hover {
+  background: #2b697a;
+  background-image: -webkit-linear-gradient(top, #327588, #347b8f);
+  background-image: -moz-linear-gradient(top, #327588, #347b8f);
+  background-image: -ms-linear-gradient(top, #327588, #347b8f);
+  background-image: -o-linear-gradient(top, #327588, #347b8f);
+  background-image: linear-gradient(to bottom, #327588, #347b8f);
+  text-decoration: none;
+}

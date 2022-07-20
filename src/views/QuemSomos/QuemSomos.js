@@ -22,7 +22,7 @@ const ids = [
 
 const QuemSomos = () => {
   return (
-    <div className="quem_somos">
+    <div className="quem_somos" id="quem-somos">
       <div className="quem_somos_container">
         <img
           className="salaReunioes"

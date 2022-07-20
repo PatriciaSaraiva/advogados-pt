@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+.activity_areas {
+  position: relative;
+  background-color: #faf9f8;
+  font-family: "Open Sans", sans-serif;
+}
+.activity_title {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  font-size: 3rem;
+  color: #faf9f8;
+  text-shadow: 1px 0px #404040;
+}
+
+.activities_list {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding: 0;
+}
+
+.activity_container {
+  margin-bottom: 1.5rem;
+  list-style: none;
+  color: #404040;
+  font-size: 1rem;
+  font-weight: 800;
+  height: 2.5rem;
+  min-width: 330px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+.direito_empresarial {
+  background-color: #8cb1bb;
+  vertical-align: middle;
+}
+
+.direito_empresarial:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.insolvencia {
+  background-color: #bcc0c2;
+}
+
+.insolvencia:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.direito_tributario {
+  background-color: #acc6dd;
+}
+
+.direito_tributario:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.direito_administrativo {
+  background-color: #cccecf;
+}
+
+.direito_administrativo:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.button_services {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  background: #2b697a;
+  border-radius: 5rem;
+  border: 1px solid #347b8f;
+  color: #f7f7fa;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 15rem;
+  height: 3.5rem;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 14px 14px 19px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 14px 19px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 14px 19px -14px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.button_services:hover {
+  background: #2b697a;
+  background-image: -webkit-linear-gradient(top, #327588, #347b8f);
+  background-image: -moz-linear-gradient(top, #327588, #347b8f);
+  background-image: -ms-linear-gradient(top, #327588, #347b8f);
+  background-image: -o-linear-gradient(top, #327588, #347b8f);
+  background-image: linear-gradient(to bottom, #327588, #347b8f);
+  text-decoration: none;
+}
+
+.activity_area-background {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: 900px;
+}

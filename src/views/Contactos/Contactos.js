@@ -27,7 +27,7 @@ const contactsContent = [
 ];
 
 const MyMapComponent = withGoogleMap((props) => (
-  <GoogleMap defaultZoom={8} defaultCenter={{ llat: 39.089, lng: -9.257 }}>
+  <GoogleMap defaultZoom={8} defaultCenter={{ lat: 39.089, lng: -9.257 }}>
     {props.isMarkerShown && <Marker position={{ lat: 39.089, lng: -9.257 }} />}{" "}
   </GoogleMap>
 ));
