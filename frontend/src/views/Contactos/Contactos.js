@@ -57,66 +57,70 @@ const Contactos = () => {
 
   return (
     <div className="contacts_page">
-      <div>
-        <h1 className="page_title">Contactos</h1>
-      </div>
       <div className="contacts_container">
         <form className="form_container" onSubmit={handleSubmit}>
-          <label>
-            <p>Assunto:</p>
-            <input
-              name="subject"
-              type="text"
-              value={formData.subject}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            <p>Área Jurídica:</p>
-            <input
-              name="field"
-              type="text"
-              value={formData.field}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            <p>Nome Completo:</p>
-            <input
-              name="fullname"
-              type="text"
-              value={formData.fullname}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            <p>Email:</p>
-            <input
-              name="email"
-              type="email"
-              value={formData.email}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            <p>Telefone:</p>
-            <input
-              name="phone"
-              type="text"
-              value={formData.phone}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            <p>Coloque aqui a sua questão:</p>
-            <input
-              className="input_message"
-              name="message"
-              type="text"
-              value={formData.message}
-              onChange={handleChange}
-            />
-          </label>
+          <div className="form_header">
+            <label>
+              <p>Assunto:</p>
+              <input
+                className="input_form"
+                name="subject"
+                type="text"
+                value={formData.subject}
+                onChange={handleChange}
+              />
+            </label>
+            <label>
+              <p>Área Jurídica:</p>
+              <input
+                className="input_form"
+                name="field"
+                type="text"
+                value={formData.field}
+                onChange={handleChange}
+              />
+            </label>
+            <label>
+              <p>Nome Completo:</p>
+              <input
+                className="input_form"
+                name="fullname"
+                type="text"
+                value={formData.fullname}
+                onChange={handleChange}
+              />
+            </label>
+            <label>
+              <p>Email:</p>
+              <input
+                className="input_form"
+                name="email"
+                type="email"
+                value={formData.email}
+                onChange={handleChange}
+              />
+            </label>
+            <label>
+              <p>Telefone:</p>
+              <input
+                className="input_form"
+                name="phone"
+                type="text"
+                value={formData.phone}
+                onChange={handleChange}
+              />
+            </label>
+            <label>
+              <p>Coloque aqui a sua questão:</p>
+              <input
+                className="input_message"
+                name="message"
+                type="text"
+                value={formData.message}
+                onChange={handleChange}
+              />
+            </label>
+          </div>
           <div className="button_container">
             <button className="btn_send" onClick={handleSubmit}>
               Enviar
