@@ -1,29 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 .activity_areas {
-  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
   background-color: #faf9f8;
   font-family: "Open Sans", sans-serif;
+  justify-content: space-around;
+}
+.activities_areas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .activity_title {
-  position: absolute;
-  top: 3%;
-  left: 45%;
-  font-size: 3rem;
+  color: rgb(79, 78, 78);
+  font-size: 2.5rem;
   font-weight: 500;
-  color: #faf9f8;
-  text-shadow: 1px 0px #404040;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .activities_list {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  position: absolute;
-  top: 12%;
-  left: 50%;
-  font-weight: ;
-  padding: 0;
+  padding: 30px;
 }
 
 .activity_container {
@@ -32,7 +33,7 @@
   font-size: 1rem;
   font-weight: 600;
   height: 2.5rem;
-  min-width: 330px;
+  width: 300px;
   text-align: center;
   border-radius: 10px;
   display: flex;
@@ -85,16 +86,14 @@
 }
 
 .button_services {
-  position: absolute;
-  left: 40%;
-  top: 40%;
+  width: 215px;
   background: #2b697a;
-  border-radius: 5rem;
+  border-radius: 8px;
   border: 1px solid #347b8f;
+  padding: 10px 40px;
   color: #f7f7fa;
   font-size: 1rem;
   font-weight: 500;
-  padding: 0.8rem 3rem;
   font-family: "Open Sans", sans-serif;
   box-shadow: 14px 14px 19px -14px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 14px 14px 19px -14px rgba(0, 0, 0, 0.75);
@@ -112,9 +111,9 @@
   text-decoration: none;
 }
 
-.activity_area-background {
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: 900px;
+.activity_area-img {
+  height: 100%;
+  width: 400px;
+
+  margin-left: 10px;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import penPhoto from "../../assets/images/pen_photo.jpeg";
+import lawStatus from "../../assets/images/law_status.jpeg";
 import "./AreasActividade.css";
 import Button from "../../components/Inputs/Button";
 
@@ -24,8 +24,8 @@ const activities = [
 const AreasActividade = () => {
   return (
     <div className="activity_areas">
-      <h1 className="activity_title">Áreas de Actividade</h1>
       <div className="activities_areas-container">
+        <h1 className="activity_title">Áreas de Actividade</h1>
         <ul className="activities_list">
           {activities.map((activity) => (
             <div className={`${activity.className} activity_container`}>
@@ -33,13 +33,9 @@ const AreasActividade = () => {
             </div>
           ))}
         </ul>
+        <Button className="button_services">Todos os Serviços</Button>
       </div>
-      <img
-        className="activity_area-background"
-        src={penPhoto}
-        alt="Background pen"
-      />
-      <Button className="button_services">Todos os Serviços</Button>
+      <img className="activity_area-img" src={lawStatus} alt="Law status" />
     </div>
   );
 };

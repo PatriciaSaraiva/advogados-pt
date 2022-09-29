@@ -1,9 +1,6 @@
 .button_home {
-  position: absolute;
-  left: 20%;
-  bottom: 17%;
   background: #2b697a;
-  border-radius: 5rem;
+  border-radius: 8px;
   border: 1px solid #347b8f;
   padding: 10px 40px;
   color: #f7f7fa;

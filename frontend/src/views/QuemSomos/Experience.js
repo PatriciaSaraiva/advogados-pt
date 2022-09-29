@@ -1,11 +1,11 @@
 import React from "react";
-import boatRow from "../../assets/images/boat_row.jpeg";
+import tingeryInjury from "../../assets/images/tingey_injury.jpeg";
 import "./Experience.css";
 
 const cardsContent = [
   {
     className: "experience_description",
-    title: "Experiencia",
+    title: "Experiência",
     description:
       "Lorem ipsum dolor sit amet, ex his etiam torquatos, duo audiam fierent sadipscing et. Nam id sanctus dolores neglegentur. Ei hendrerit intellegat scripserit has ex.",
   },
@@ -17,7 +17,7 @@ const cardsContent = [
   },
   {
     className: "dedicacao_description",
-    title: "Dedicacao",
+    title: "Dedicação",
     description:
       "Lorem ipsum dolor sit amet, ex his etiam torquatos, duo audiam fierent sadipscing et. Nam id sanctus dolores neglegentur. Ei hendrerit intellegat scripserit has ex.",
   },
@@ -27,7 +27,7 @@ const Experience = () => {
   return (
     <>
       <div className="experience_page">
-        <h1 className="experience_title">O que Garantimos</h1>
+        <h1 className="experience_title">O que garantimos</h1>
         <div className="experience_container">
           {cardsContent.map((card) => (
             <div className={card.className}>
@@ -39,8 +39,8 @@ const Experience = () => {
 
         <img
           className="backgroundExperience"
-          src={boatRow}
-          alt="Background boat img"
+          src={tingeryInjury}
+          alt="Background tingery img"
         />
       </div>
     </>

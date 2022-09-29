@@ -12,13 +12,16 @@ const Home = () => {
   };
   return (
     <>
-      <Hero />
-      <input
-        className="button_home"
-        type="button"
-        value="Consulta Jurídica"
-        onClick={togglePopup}
-      ></input>
+      <div className="hero_card">
+        <Hero />
+        <input
+          className="button_home"
+          type="button"
+          value="Consulta Jurídica"
+          onClick={togglePopup}
+        ></input>
+      </div>
+
       {isOpen && (
         <Popup
           content={
@@ -42,7 +45,7 @@ const Home = () => {
         />
       )}
 
-      <img className="backgroundOffice" src={officeImg} alt="Office Img" />
+      <div className="backgroundOffice" />
     </>
   );
 };

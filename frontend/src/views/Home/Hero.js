@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="hero">
       <h1 className="hero_title">Fale Connosco</h1>
       <p className="hero_description">
-        Se necessita de aconselhamento juridico, esta no caminho certo
+        Se necessita de aconselhamento jurídico, está no caminho certo
       </p>
     </div>
   );
